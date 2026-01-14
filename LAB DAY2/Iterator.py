@@ -1,4 +1,10 @@
-
+data = [1, 2, 3]
+it = iter(data)
+print(next(it))
+print(next(it))
+print(next(it))
+for x in [10, 20, 30]:
+    print(x)
 class count:
     def __init__(self, limit):
         self.limit = limit
@@ -14,6 +20,6 @@ class count:
             return val
         else:
             raise StopIteration
-obj = count(10)
+obj = count(3)
 for num in obj:
     print(num)
