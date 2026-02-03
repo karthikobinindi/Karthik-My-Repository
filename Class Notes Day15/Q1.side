@@ -1,0 +1,86 @@
+{
+  "id": "f912cdfd-d79d-425e-8641-078b331ef101",
+  "version": "2.0",
+  "name": "LAB1",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "eab36ab6-5cc3-4883-8086-bae5cedc4f19",
+    "name": "TC_001",
+    "commands": [{
+      "id": "1b4983dc-8aef-4b7c-a1a3-bbbc1800f720",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a950c7d0-c1b7-42c9-ae96-29d704fd6c21",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d6f4990-19f9-4ec5-8e73-3948af850d6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97165165-2a84-4f1b-9513-2eb7d6db394e",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "testing methods "
+    }, {
+      "id": "88edc42b-cb65-4cc2-98d0-c43ac6bdf19f",
+      "comment": "",
+      "command": "pause",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb9d04c4-59ce-491d-93d2-f569f90cf33e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.RJPOee > div",
+      "targets": [
+        ["css=.RJPOee > div", "css:finder"],
+        ["xpath=//div[@id='m7aBacCkE4DLseMPxYi1oAM_tts-scoped-element']/div/div[2]/div/div/div/div/div/omnient-visibility-control/div/div", "xpath:idRelative"],
+        ["xpath=//omnient-visibility-control/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a016ee9-4f49-45d5-a9a8-46e286ed1779",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3010b83c-d205-4ccf-94f1-cc17de0a5e13",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eab36ab6-5cc3-4883-8086-bae5cedc4f19"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
